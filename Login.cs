@@ -21,9 +21,8 @@ class Login
 
             if (!string.IsNullOrEmpty(token))
             {
-                credencialesCorrectas = true;
-                Console.WriteLine($"Bienvenido");
                 Menu.Menuprincipal();
+                credencialesCorrectas = true;
             }
             else
             {
